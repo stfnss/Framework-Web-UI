@@ -1,0 +1,181 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+.brand {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.firstName > a {
+    padding-left: 9px;
+    text-transform: capitalize;
+    font-family: Anton;
+    text-decoration: none;
+    color: white;
+}
+.lastName > a {
+    text-transform: capitalize;
+    font-size: 22px;
+    padding-left: 4px;
+    text-decoration: none;
+    color: crimson;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation > li {
+    list-style-type: none;
+    padding: 20px;
+}
+.navigation > li > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navigation>li>a:hover {
+    color: crimson;
+    transition: all .3 ease-in-out;
+}
+.brand>li>a>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.activate {
+    background-color: crimson;
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+}
+.activate:hover {
+    color: white !important;
+}
+.text1 {
+    padding-top: 50px;
+    font-size: 80px;
+    font-family: Oswald;
+    text-align: center;
+    color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+.text2 > h5 {
+    padding-top: 30px;
+    text-align: center;
+    color: #222;
+}
+.text2 > h6 {
+    text-align: center;
+    color: #000;
+}
+.button {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button > a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+.container1 {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 50px;
+}
+code > span {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+code > span > h5 {
+    font-size: medium;
+    padding-right:3px;
+}
+.card > img {
+    border-radius: none;
+}
+.card {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+.card > p > button {
+    border-radius: 30px;
+}
+  
+.title {
+    color: grey;
+    font-size: 18px;
+}
+  
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+  
+button:hover, a:hover {
+    opacity: 0.7;
+}
+.card-text > img {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card-title {
+    font-family: Oswald;
+    font-size: 50px;
+    color: white;
+}
+.card-text {
+    margin-top: 35px;
+    color: #d3d3d3;
+}
+.container3 {
+    margin-top: 50px;
+    padding: 40px;
+    color: grey;
+}
+.card-body > img {
+    width: 70px;
+    height: 65px;
+    border-radius: 50px;
+}
+.name {
+    font-family: Oswald;
+    color: white;
+}
+.skill > p {
+    font-size: large;
+    color: gray;
+}
+.btn btn-primary {
+    padding-left: 100px;
+}

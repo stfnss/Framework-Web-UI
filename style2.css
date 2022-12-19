@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+.language-html {
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+}
+.hljs-tag {
+    color: grey;
+}
+.hljs-name {
+    color: #AA4A44;
+}
+.hljs-attr {
+    margin-left: 3px;
+    color: #b8860b;
+}
+.hljs-string {
+    color: #4CBB17;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.card-subtitle {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+.card {
+    max-width: 300px;
+    background-color: #222;
+    width: 300px;
+    height: 70vh;
+    border-radius: 30px;
+}
+.line {
+    display: flex;
+    justify-content: start;
+    color: white;
+}
+.line2 {
+    display: flex;
+    justify-content: start;
+}

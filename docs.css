@@ -1,0 +1,128 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+.brand {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.firstName > a {
+    padding-left: 9px;
+    text-transform: capitalize;
+    font-family: Anton;
+    text-decoration: none;
+    color: white;
+}
+.lastName > a {
+    text-transform: capitalize;
+    font-size: 22px;
+    padding-left: 4px;
+    text-decoration: none;
+    color: crimson;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation > li {
+    list-style-type: none;
+    padding: 20px;
+}
+.navigation > li > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navigation>li>a:hover {
+    color: crimson;
+    transition: all .3 ease-in-out;
+}
+.brand>li>a>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.activate {
+    background-color: crimson;
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+}
+.activate:hover {
+    color: white !important;
+}
+/* Navbar*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.container > strong {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: Oswald;
+}
+.container > h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: Montserrat;
+}
+.container > h1 {
+    margin-top: 50px;
+    font-size: large;
+    font-family: Roboto Mono;
+}
+.container > h1 > a {
+    margin-left: 5px;
+    text-decoration: none;
+}
+.container > h2 { 
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: medium;
+}
+.content1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.content1 > h3 {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 4px;
+    font-size: medium;
+    font-family: Montserrat;
+}
+.content1 > h4 {
+    font-family: Oswald;
+    font-size: large;
+}
+.content1 > h5 {
+    color: crimson;
+    font-family: Montserrat;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+.container > h2 > a {
+    margin-left: 3px;
+    font-size: small;
+}
